@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Pebolim Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Adiciona a biblioteca de confete -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Time 1 (Cima) -->
+        <div class="team team-black">
+            <button class="goal-button" onclick="addGoal('black', event)">GOL</button>
+        </div>
+
+        <!-- Placar Central com Reset -->
+        <div class="score-container">
+            <div class="score">
+                <span id="score-black">0</span>
+                <span>-</span>
+                <span id="score-red">0</span>
+            </div>
+            <button class="reset-button" onclick="resetScores()">Reset</button>
+        </div>
+
+        <!-- Time 2 (Baixo) -->
+        <div class="team team-red">
+            <button class="goal-button" onclick="addGoal('red', event)">GOL</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

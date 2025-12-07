@@ -1,0 +1,12 @@
+## [1.0.0]
+    - Initial Structure: Created the index.html, style.css, and script.js files.
+    - Basic Layout: Implemented the layout with two teams (Black and Red) and individual scoreboards.
+    - Scoring Functionality: Added JavaScript logic to increment each team's score when the "GOAL" button is pressed.
+    - Reset Button: Added a button to reset both scores to zero.
+    - Dual-Sided Mobile Layout: Implemented a split-screen layout for mobile, with the top team rotated 180 degrees for table use.
+    - Digital Scoreboard Font: Added the "Orbitron" font to give the numbers and buttons an electronic scoreboard style.
+    - Button Styling: Improved the design of the "GOAL" buttons with gradients, shadows, and rounded borders.
+    - Double-Click Prevention: Implemented a cooldown system to prevent multiple goals from being counted by a single tap.
+    - Confetti Effect: Added a team-colored confetti animation whenever a goal is scored.
+    - Minimalist Background: Implemented a black background with blurred, semi-transparent SVG soccer field lines.
+    - Documentation: Created the README.md and CHANGELOG.md files.
