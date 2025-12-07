@@ -1,4 +1,4 @@
-Pebolim Counter
+Pebolim Scoreboard
 
 A lightweight, mobile-optimized foosball goal counter designed for fast and reliable score tracking.
 
